@@ -1,8 +1,9 @@
 {
-  "name": "publish_npm_package",
-  "version": "1.0.0",
+  "name": "city_temperature",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

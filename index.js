@@ -2,11 +2,11 @@ import axios from 'axios';
 
 const BASE_URL = 'https://api.openweathermap.org/data/2.5/weather';
 
-export default city =>
+export default (city, apiKey) =>
   axios(BASE_URL, {
     params: {
       q: city,
-      appid: process.env.API_KEY,
+      appid: apiKey,
       units: 'metric',
       lang: 'fr',
     },
